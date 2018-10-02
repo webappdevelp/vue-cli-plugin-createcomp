@@ -1,0 +1,17 @@
+{
+  "name": "@vue/vue-cli-plugin-createcomp",
+  "version": "1.0.0",
+  "description": "create component tempate file for vue-cli plugin",
+  "main": "index.js",
+  "repository": "https://github.com/webappdevelp/vue-cli-plugin-createcomp.git",
+  "author": "Frank",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "fs-extra": "^7.0.0",
+    "globby": "^8.0.1",
+    "inquirer": "^6.2.0",
+    "path": "^0.12.7",
+    "slash": "^2.0.0"
+  }
+}
