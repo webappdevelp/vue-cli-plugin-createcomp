@@ -81,7 +81,7 @@ class CreateComp {
     const { scoped } = await this.injectPrompt({
       type: 'confirm',
       name: 'scoped',
-      message: '样式是否只对当前组件有效? (默认为否)',
+      message: '样式是否只对当前组件有效(默认为否)',
       default: false
     });
     return scoped;
@@ -138,7 +138,7 @@ class CreateComp {
     const scoped = await this.getScoped();
     let componentName = this.componentName;
     if (this.componentName.indexOf('/') > -1) {
-      componentName = this.componentName.match(/\/\w*$/)[0];
+      componentName = this.componentName.match(/\/\w*$/)[0].slice(1);
     }
     this.template = `
 <template>
