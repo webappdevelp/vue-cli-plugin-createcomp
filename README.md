@@ -15,10 +15,13 @@
 ### 3、配置插件参数
 
 在所在目录下找到 **vue.config.js**或者新建 vue.config.js 配置：
-```json
+```javascript
 pluginOptions: {
     comp: {
-        baseDir: '/src/components'
+        baseDir: 'src/components'
     }
 }
 ```
+### 4、执行
+
+在所在项目内启动命令行工具，执行：`yarn comp`，然后根据插件提示完成组件的创建。
